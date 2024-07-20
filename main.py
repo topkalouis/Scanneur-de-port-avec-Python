@@ -1,8 +1,8 @@
 # J'importe la classe de mon fichier check_port.py en tant qu'un alias VP
 from check_port import verifierPort as VP
-# je définis la plage d'adresses IP a Scanner
+# je définis la plage d'adresses IP a Scanner: Il faut le modifier pour l'adapter à votre place d'adresses IP
 plage = "192.168.1.1/24"
-# Je définis la liste des port a scanner sur chaque adresses ip trouvées dans le réseau
+# Je définis la liste des port a scanner sur chaque adresses ip trouvées dans le réseau: Vous pouvez ajouter plusieurs ports dans la liste
 listPort = (80,443,21,22,23,3306)
 # On exécute le tout
 if __name__ == "__main__":
